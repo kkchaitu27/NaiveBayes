@@ -45,7 +45,7 @@ def NaiveBayesMAP(df,target,betak,betam):
 
 def get_attribute_probability(row,attributes,attribute_probability_dict,clazz):
     """
-    This function returns a  attribute level probability of a given record for articular class
+    This function returns a  attribute level probability of a given record for particular class
     """
     probability = 0    
 
